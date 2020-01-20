@@ -7,10 +7,10 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @EnableEurekaClient
 @SpringBootApplication(exclude = RedisReactiveAutoConfiguration.class)
-public class HolderSaasSsoReactiveApplication {
+public class DaoSsoReactiveApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(HolderSaasSsoReactiveApplication.class, args);
+        SpringApplication.run(DaoSsoReactiveApplication.class, args);
     }
 
 }
